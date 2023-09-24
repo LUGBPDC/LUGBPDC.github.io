@@ -1,0 +1,74 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+header {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Navigation link color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Navigation link color on hover */
+}
+
+section {
+    padding: 20px;
+    background-color: #fff; /* Section background color */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px;
+    }
+}
